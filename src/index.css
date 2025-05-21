@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+.MainBgColor{
+    background-color: #E4F2F2;
+}
+.loginsize{
+    @apply w-20;
+    @apply h-20;
+}
