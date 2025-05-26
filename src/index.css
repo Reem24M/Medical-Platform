@@ -2,9 +2,36 @@
 
 
 .MainBgColor{
-    background-color: #E4F2F2;
+    background-color: #E7EFFC;
+}
+.DarkBgBlue
+{
+    background-color: #2870E3E5;
+}
+.LightBgBlue
+{
+   background-color: #9FBFF3;
+}
+.MainColorText
+{
+    
+    color: #E7EFFC;
+}
+.DarkBlueText
+{
+    color: #2870E3E5;
+}
+.LightBlueText
+{
+    color: #9FBFF3;
 }
 .loginsize{
-    @apply w-20;
-    @apply h-20;
+    @apply w-16;
+    @apply h-16;
+}
+.IconSizeSmall
+{
+    @apply w-7;
+    @apply h-7;
+    @apply mx-2
 }
