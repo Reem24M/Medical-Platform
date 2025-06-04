@@ -165,7 +165,7 @@ export default function Signup() {
                 </form>
                 {/* login with */}
                 <div className='mt-5'>
-                    <h2 className='text-white text-center'>Login With</h2>
+                    <h2 className='text-white text-center'>Sign Up With</h2>
                     <div className='flex justify-center items-center mt-2'>
                         <button><img src={Google} className='IconSizeSmall' /></button>
                         <button><img src={Facebook} className=' w-8 h-8' /></button>
