@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Button from '../../../../Shared/ui/atoms/button'
 import OTPInput from '../../../../Shared/ui/atoms/oTPInput'
 import { useState } from 'react'
 
 export default function PhonePage() {
     const [otp, setOtp] = useState('');
-
+    const navigate=useNavigate();
     const handleOTPChange = (value: string) => {
         console.log('OTP:', value);
         setOtp(value); 
@@ -14,6 +14,7 @@ export default function PhonePage() {
     const handleConfirmation = () => {
         console.log('Confirmed OTP:', otp);
         // e.g. send OTP to backend
+         navigate('/login')
     };
 
     return (
